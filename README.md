@@ -1,10 +1,10 @@
-# ZeyaMoon
+# BahiaClient
 
 Client-side mod for Minecraft 26.2 with selected features organized by category.
 In the menu, drag category headers with the left mouse button, right-click
 headers to collapse or expand them, and left-click features to toggle them.
 Right-click a feature to open a compact settings panel. Open the menu with
-**`/z`**, **`/zeyafabric`**, or press **K**.
+**`/bahia`**, **`/b`**, or press **K**.
 
 ## Features
 
@@ -43,7 +43,7 @@ Right-click a feature to open a compact settings panel. Open the menu with
 
 ## Organization
 
-Features are separated by area under `src/client/java/dev/zeya/fabricmoon/`:
+Features are separated by area under `src/client/java/dev/bahiaclient/`:
 
 - `hud/`: HUD, health reading, and ping/TPS statistics.
 - `visual/`: visual options and hitbox rendering.

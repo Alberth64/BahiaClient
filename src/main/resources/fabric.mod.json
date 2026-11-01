@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "zeyafabricmoon",
+  "id": "bahiaclient",
   "version": "${version}",
-  "name": "ZeyaMoon — Primordial Eclipse Moon",
+  "name": "BahiaClient",
   "description": "A client-side Minecraft mod with organized HUD, visual, and macro features.",
-  "icon": "assets/zeyafabricmoon/icon.png",
+  "icon": "assets/bahiaclient/icon.png",
   "authors": [
-    "Zeya"
+    "BahiaClient"
   ],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "dev.zeya.fabricmoon.ZeyaFabricMoonClient"
+      "dev.bahiaclient.BahiaClient"
     ],
     "modmenu": [
-      "dev.zeya.fabricmoon.ZeyaFabricMoonModMenu"
+      "dev.bahiaclient.BahiaClientModMenu"
     ]
   },
   "mixins": [
     {
-      "config": "zeyafabricmoon.client.mixins.json",
+      "config": "bahiaclient.client.mixins.json",
       "environment": "client"
     }
   ],

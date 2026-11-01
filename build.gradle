@@ -13,7 +13,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"zeyafabricmoon" {
+		"bahiaclient" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

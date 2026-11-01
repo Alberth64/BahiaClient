@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "dev.bahiaclient.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AvatarRendererMixin",
+    "BossHealthOverlayAccessor",
+    "HumanoidArmorLayerMixin",
+    "CustomHeadLayerMixin",
+    "FullbrightMixin",
+    "FishingHookAccessor",
+    "ServerTimePacketMixin",
+    "ServerPingPacketMixin",
+    "ClientPacketListenerMixin",
+    "KeyCommandsKeyboardMixin",
+    "EntityRenderStateMixin",
+    "ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

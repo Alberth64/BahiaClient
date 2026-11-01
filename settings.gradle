@@ -9,4 +9,4 @@ pluginManagement {
 	}
 }
 
-rootProject.name = 'zeya-fabric-moon'
+rootProject.name = 'bahia-client'
